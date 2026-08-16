@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Mahath P T — Front-End Developer &amp; UI/UX Designer</title>
+  <meta name="description" content="Portfolio of Mahath P T — Front-end developer, UI/UX designer and ML enthusiast based in Chennai." />
+  <link rel="shortcut icon" href="assets/img/dp_circle.png" type="image/x-icon" />
+
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <div id="preloader">
+    <div class="preloader__mark"><span class="grad-text">MPT</span></div>
+    <div class="preloader__line">$ <span class="preloader__line-text">booting interface</span><span class="cursor"></span></div>
+    <div class="preloader__bar"><div class="preloader__bar-fill"></div></div>
+  </div>
+  <div id="scrollProgress"></div>
+  <noscript><style>#preloader{display:none!important}.hero__kicker,.hero__title,.hero__role,.hero__desc,.hero__cta,.hero__stats,.hero__portrait-wrap{opacity:1!important;transform:none!important}</style></noscript>
+
+  <!-- ============ HEADER ============ -->
+  <header class="header">
+    <div class="container header__content">
+      <div class="logo" data-home>
+        <div class="logo__mark"><img src="assets/img/dp_circle.png" alt="Mahath P T" /></div>
+        <div class="logo__text">MAHATH P T <small>Front-End Dev</small></div>
+      </div>
+      <nav class="nav__links">
+        <a href="#home" class="nav__link">Home</a>
+        <a href="#about" class="nav__link">About</a>
+        <a href="#projects" class="nav__link">Projects</a>
+        <a href="#certifications" class="nav__link">Certs</a>
+        <a href="#contact" class="nav__link">Contact</a>
+      </nav>
+      <div class="nav__cta">
+        <a href="#contact" class="btn btn--solid btn--sm">Let's talk</a>
+        <button class="ham" aria-label="Menu"><span class="ham__bar"></span></button>
+      </div>
+    </div>
+  </header>
+
+  <div class="mobile-menu">
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#certifications">Certs</a>
+    <a href="#contact">Contact</a>
+  </div>
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="home">
+    <div class="hero__texture"></div>
+    <canvas class="hero__grid-canvas"></canvas>
+    <div class="hero__glow"></div>
+    <div class="hero__glow hero__glow--cyan"></div>
+
+    <div class="hero__socials">
+      <a href="https://www.linkedin.com/in/mahath-p-t-b9b1a9236" target="_blank" rel="noreferrer" class="hero__social"><img src="assets/img/linkedin-ico.png" alt="LinkedIn" /></a>
+      <a href="https://github.com/MAHATH2001" target="_blank" rel="noreferrer" class="hero__social"><img src="assets/img/github-ico.png" alt="GitHub" /></a>
+      <a href="https://instagram.com/mahath.pt/" target="_blank" rel="noreferrer" class="hero__social"><img src="assets/img/insta-ico.png" alt="Instagram" /></a>
+    </div>
+
+    <div class="container">
+      <div class="hero__inner">
+        <div class="hero__text">
+          <div class="hero__kicker"><span class="dot"></span>OPEN TO FRONT-END &amp; ML OPPORTUNITIES</div>
+          <h1 class="hero__title">Hi, I'm <span class="grad-text">Mahath</span> —<br />I build things for the web.</h1>
+          <div class="hero__role" data-typer='["Front-End Developer","UI/UX Designer","Web App Developer","ML Enthusiast"]'>
+            <span class="prompt">$</span> <span class="typer-text"></span><span class="cursor"></span>
+          </div>
+          <p class="hero__desc">Chennai-based front-end developer who turns ideas into clean, functional interfaces — and occasionally trains a model or two along the way.</p>
+          <div class="hero__cta">
+            <a href="#contact" class="btn btn--solid">Hire Me</a>
+            <a href="#projects" class="btn btn--ghost">View Projects</a>
+          </div>
+          <div class="hero__stats">
+            <div>
+              <div class="hero__stat-num">2+</div>
+              <div class="hero__stat-label">SHIPPED PROJECTS</div>
+            </div>
+            <div>
+              <div class="hero__stat-num">4</div>
+              <div class="hero__stat-label">CERTIFICATIONS</div>
+            </div>
+            <div>
+              <div class="hero__stat-num">100%</div>
+              <div class="hero__stat-label">HANDS-ON BUILD</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero__portrait-wrap">
+          <div class="hero__portrait-ring"></div>
+          <div class="hero__portrait">
+            <img src="assets/img/dp_circle.png" alt="Mahath P T" />
+            <div class="hero__scan"></div>
+          </div>
+          <div class="hero__portrait-frame"></div>
+          <div class="hero__tag"><span class="dot"></span>Open to Opportunities</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="scroll-cue"><span>SCROLL</span><span class="scroll-cue__line"></span></div>
+  </section>
+
+  <!-- ============ MARQUEE ============ -->
+  <div class="marquee">
+    <div class="marquee__track">
+      <div class="marquee__item"><b>HTML</b><span class="sep">/</span><b>CSS</b><span class="sep">/</span><b>JavaScript</b><span class="sep">/</span><b>Bootstrap</b><span class="sep">/</span><b>Python</b><span class="sep">/</span><b>TensorFlow</b><span class="sep">/</span><b>Git</b><span class="sep">/</span><b>UI-UX Design</b></div>
+      <div class="marquee__item"><b>HTML</b><span class="sep">/</span><b>CSS</b><span class="sep">/</span><b>JavaScript</b><span class="sep">/</span><b>Bootstrap</b><span class="sep">/</span><b>Python</b><span class="sep">/</span><b>TensorFlow</b><span class="sep">/</span><b>Git</b><span class="sep">/</span><b>UI-UX Design</b></div>
+    </div>
+  </div>
+
+  <!-- ============ ABOUT ============ -->
+  <section id="about" class="section about section--layered">
+    <div class="container">
+      <div class="section-head reveal">
+        <div class="eyebrow">ABOUT ME</div>
+        <h2 class="section-title">The person behind the pixels</h2>
+      </div>
+
+      <div class="about__grid">
+        <div class="reveal">
+          <p class="about__lead">I'm a <span class="grad-text">front-end developer</span> and UI/UX designer based in Chennai, focused on building clean, usable interfaces.</p>
+          <p class="about__para">Hey, it's <strong>Mahath</strong>. I've built projects through the IBM &amp; Nalaiya Thiran program and shipped them to GitHub — collaborating with people to build web pages for both client and server-side use.</p>
+          <p class="about__para">I'm looking to grow inside an organisation that values hard work and trusts people with real responsibility and challenges. Got something in mind? <strong>Let's talk.</strong></p>
+          <div class="about__cta">
+            <a href="#contact" class="btn btn--solid">Contact Me</a>
+            <a href="assets/docs/IBM_Certificate.pdf" target="_blank" class="btn btn--ghost">View Certificate</a>
+          </div>
+        </div>
+
+        <div class="panel reveal">
+          <span class="panel__label">// TECH STACK</span>
+          <div class="skill-grid">
+            <div class="skill-chip">HTML<div class="skill-chip__bar" style="--lvl:92%"></div></div>
+            <div class="skill-chip">CSS<div class="skill-chip__bar" style="--lvl:88%"></div></div>
+            <div class="skill-chip">JavaScript<div class="skill-chip__bar" style="--lvl:80%"></div></div>
+            <div class="skill-chip">Bootstrap<div class="skill-chip__bar" style="--lvl:85%"></div></div>
+            <div class="skill-chip">GitHub<div class="skill-chip__bar" style="--lvl:82%"></div></div>
+            <div class="skill-chip">VS Code<div class="skill-chip__bar" style="--lvl:90%"></div></div>
+            <div class="skill-chip">UI-UX Design<div class="skill-chip__bar" style="--lvl:78%"></div></div>
+            <div class="skill-chip">Machine Learning<div class="skill-chip__bar" style="--lvl:70%"></div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PROJECTS ============ -->
+  <section id="projects" class="section projects">
+    <div class="container">
+      <div class="section-head section-head--center reveal">
+        <div class="eyebrow" style="justify-content:center">SELECTED WORK</div>
+        <h2 class="section-title">Things I've built</h2>
+        <p class="section-desc">A couple of projects that mix front-end craft with a bit of machine learning.</p>
+      </div>
+
+      <div class="project-list">
+        <article class="project-card reveal">
+          <div class="project-card__media">
+            <span class="project-card__idx">01 / SECURITY</span>
+            <img src="assets/img/WEB_PHISHING.png" alt="Web Phishing Detection screenshot" loading="lazy" />
+          </div>
+          <div class="project-card__body">
+            <h3 class="project-card__title">Web Phishing Detection using Machine Learning</h3>
+            <p class="project-card__desc">Trained ML models and deep neural nets on a dataset of phishing vs. benign URLs, extracting URL and content-based features to flag malicious e-banking sites before they reach the user.</p>
+            <div class="project-card__tags">
+              <span class="tag">Python</span><span class="tag">HTML/CSS</span><span class="tag">Render</span>
+            </div>
+            <div class="project-card__links">
+              <a href="project-1.html" class="link-arrow">Case study →</a>
+              <a href="https://web-phishing-detection-2ryg.onrender.com" target="_blank" rel="noreferrer" class="link-arrow">Live demo ↗</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-card__media">
+            <span class="project-card__idx">02 / HEALTHCARE</span>
+            <img src="assets/img/MediQuic.png" alt="MediQuic chatbot screenshot" loading="lazy" />
+          </div>
+          <div class="project-card__body">
+            <h3 class="project-card__title">MediQuic — AI Medical Chatbot</h3>
+            <p class="project-card__desc">A personalised medical chatbot built with NLP, offering symptom-based guidance, condition info and first-aid instructions to make basic medical knowledge more accessible.</p>
+            <div class="project-card__tags">
+              <span class="tag">Python</span><span class="tag">TensorFlow</span><span class="tag">JSON</span>
+            </div>
+            <div class="project-card__links">
+              <a href="project-2.html" class="link-arrow">Case study →</a>
+              <a href="#" data-video="assets/demo/AI_Chatbot.mp4" class="link-arrow">Watch demo ▶</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CERTIFICATIONS ============ -->
+  <section id="certifications" class="section certifications section--layered">
+    <div class="container">
+      <div class="section-head section-head--center reveal">
+        <div class="eyebrow" style="justify-content:center">CREDENTIALS</div>
+        <h2 class="section-title">Certifications</h2>
+        <p class="section-desc">Formal training to back up the projects.</p>
+      </div>
+
+      <div class="cert-grid">
+        <div class="cert-card reveal">
+          <div class="cert-card__thumb">
+            <span class="cert-card__badge"><span class="dot"></span>VERIFIED</span>
+            <img src="assets/img/ibm-cert-thumb.png" alt="IBM certificate — Project on Web Phishing Detection" loading="lazy" />
+          </div>
+          <div class="cert-card__body">
+            <div class="cert-card__issuer">// IBM DEVELOPER SKILLS NETWORK</div>
+            <h3 class="cert-card__title">Project on Web Phishing Detection</h3>
+            <div class="cert-card__meta">
+              <div class="cert-card__meta-item">
+                <div class="cert-card__meta-label">COURSE</div>
+                <div class="cert-card__meta-value">PRADS15EN · ICT Academy</div>
+              </div>
+              <div class="cert-card__meta-item">
+                <div class="cert-card__meta-label">ISSUED</div>
+                <div class="cert-card__meta-value">Feb 20, 2023</div>
+              </div>
+            </div>
+            <div class="cert-card__links">
+              <a href="assets/docs/IBM_Certificate.pdf" target="_blank" class="btn btn--solid btn--sm">View Certificate</a>
+              <a href="https://courses.ictacademy.skillsnetwork.site/certificates/8452d8b0b707419e90bae3dc60eaa871" target="_blank" rel="noreferrer" class="btn btn--ghost btn--sm">Verify Online</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="cert-card reveal">
+          <div class="cert-card__thumb">
+            <span class="cert-card__badge"><span class="dot"></span>VERIFIED</span>
+            <img src="assets/img/IBM_DataScienceMethodology_Certificate.jpg" alt="IBM certificate — Data Science Methodology" loading="lazy" />
+          </div>
+          <div class="cert-card__body">
+            <div class="cert-card__issuer">// IBM DEVELOPER SKILLS NETWORK</div>
+            <h3 class="cert-card__title">Data Science Methodology</h3>
+            <div class="cert-card__meta">
+              <div class="cert-card__meta-item">
+                <div class="cert-card__meta-label">COURSE</div>
+                <div class="cert-card__meta-value">DS0103EN · ICT Academy</div>
+              </div>
+              <div class="cert-card__meta-item">
+                <div class="cert-card__meta-label">ISSUED</div>
+                <div class="cert-card__meta-value">Nov 14, 2022</div>
+              </div>
+            </div>
+            <div class="cert-card__links">
+              <a href="assets/docs/IBM_DataScienceMethodology_Certificate.pdf" target="_blank" class="btn btn--solid btn--sm">View Certificate</a>
+              <a href="assets/docs/IBM_DataScience_Badge.pdf" target="_blank" class="btn btn--ghost btn--sm">View Badge</a>
+              <a href="https://www.credly.com/go/ffY5mgRT" target="_blank" rel="noreferrer" class="btn btn--ghost btn--sm">Verify Online</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="cert-card reveal">
+          <div class="cert-card__thumb">
+            <span class="cert-card__badge"><span class="dot"></span>VERIFIED</span>
+            <img src="assets/img/GreatLearning_MySQL_Certificate.jpg" alt="Great Learning certificate — My SQL Basics" loading="lazy" />
+          </div>
+          <div class="cert-card__body">
+            <div class="cert-card__issuer">// GREAT LEARNING ACADEMY</div>
+            <h3 class="cert-card__title">My SQL Basics</h3>
+            <div class="cert-card__meta">
+              <div class="cert-card__meta-item">
+                <div class="cert-card__meta-label">TYPE</div>
+                <div class="cert-card__meta-value">Free Online Course</div>
+              </div>
+              <div class="cert-card__meta-item">
+                <div class="cert-card__meta-label">ISSUED</div>
+                <div class="cert-card__meta-value">May 2022</div>
+              </div>
+            </div>
+            <div class="cert-card__links">
+              <a href="assets/docs/GreatLearning_MySQL_Certificate.pdf" target="_blank" class="btn btn--solid btn--sm">View Certificate</a>
+              <a href="https://verify.mygreatlearning.com/OVZYQKRE" target="_blank" rel="noreferrer" class="btn btn--ghost btn--sm">Verify Online</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="cert-card reveal">
+          <div class="cert-card__thumb">
+            <span class="cert-card__badge"><span class="dot"></span>VERIFIED</span>
+            <img src="assets/img/Udemy_HTML5_Certificate.jpg" alt="Udemy certificate — The HTML5 Course: Basic to Advanced" loading="lazy" />
+          </div>
+          <div class="cert-card__body">
+            <div class="cert-card__issuer">// UDEMY</div>
+            <h3 class="cert-card__title">The HTML5 Course: Basic to Advanced</h3>
+            <div class="cert-card__meta">
+              <div class="cert-card__meta-item">
+                <div class="cert-card__meta-label">INSTRUCTOR</div>
+                <div class="cert-card__meta-value">Creative Online School</div>
+              </div>
+              <div class="cert-card__meta-item">
+                <div class="cert-card__meta-label">ISSUED</div>
+                <div class="cert-card__meta-value">Aug 27, 2025</div>
+              </div>
+            </div>
+            <div class="cert-card__links">
+              <a href="assets/docs/Udemy_HTML5_Certificate.pdf" target="_blank" class="btn btn--solid btn--sm">View Certificate</a>
+              <a href="https://ude.my/UC-68b1584d-6ff9-465b-adfe-0890169994d5" target="_blank" rel="noreferrer" class="btn btn--ghost btn--sm">Verify Online</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section id="contact" class="section contact section--layered">
+    <div class="container">
+      <div class="section-head reveal">
+        <div class="eyebrow">GET IN TOUCH</div>
+        <h2 class="section-title">Let's build something.</h2>
+        <p class="section-desc">Questions, ideas, or a project you'd like done — my inbox is open.</p>
+      </div>
+
+      <div class="contact__grid">
+        <div class="reveal">
+          <div class="contact__info-item">
+            <div class="contact__info-label">// EMAIL</div>
+            <div class="contact__info-value">
+              <a href="mailto:mahath2001@gmail.com" class="mail-link">
+                <span class="icon"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"></rect><path d="M3 7l9 6 9-6"></path></svg></span>
+                mahath2001@gmail.com
+              </a>
+            </div>
+          </div>
+          <div class="contact__info-item">
+            <div class="contact__info-label">// LOCATION</div>
+            <div class="contact__info-value">Chennai, India</div>
+          </div>
+          <div class="contact__info-item">
+            <div class="contact__info-label">// STATUS</div>
+            <div class="contact__info-value">Open to work</div>
+          </div>
+          <div class="contact__socials">
+            <a href="https://www.linkedin.com/in/mahath-p-t-b9b1a9236" target="_blank" rel="noreferrer" class="hero__social"><img src="assets/img/linkedin-ico.png" alt="LinkedIn" style="width:1.8rem;opacity:.85" /></a>
+            <a href="https://github.com/MAHATH2001" target="_blank" rel="noreferrer" class="hero__social"><img src="assets/img/github-ico.png" alt="GitHub" style="width:1.8rem;opacity:.85" /></a>
+            <a href="https://instagram.com/mahath.pt/" target="_blank" rel="noreferrer" class="hero__social"><img src="assets/img/insta-ico.png" alt="Instagram" style="width:1.8rem;opacity:.85" /></a>
+          </div>
+        </div>
+
+        <form class="contact__form panel reveal" id="contactForm">
+          <input type="hidden" name="access_key" value="1fa68bb3-ba88-42b3-aff7-f8dfa04a5d09" />
+          <input type="hidden" name="subject" value="New portfolio inquiry — someone wants to hire you!" />
+          <input type="checkbox" name="botcheck" class="hp-field" tabindex="-1" autocomplete="off" />
+          <div class="form-grid">
+            <div class="field">
+              <label for="name">Name</label>
+              <input required placeholder="Your name" type="text" name="name" id="name" />
+            </div>
+            <div class="field">
+              <label for="email">Email</label>
+              <input required placeholder="you@email.com" type="email" name="email" id="email" />
+            </div>
+            <div class="field field--full">
+              <label for="message">Message</label>
+              <textarea required rows="6" placeholder="Tell me about your project…" name="message" id="message"></textarea>
+            </div>
+          </div>
+          <button type="submit" class="btn btn--solid" id="contactSubmitBtn">Send Message</button>
+          <p class="form-status" id="contactFormStatus"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__row">
+        <div class="footer__brand">
+          <b>MAHATH P T</b> <span class="footer__brand-sep">—</span> Front-End Developer / UI-UX Designer
+          <span class="footer__brand-sep">·</span>
+          <a href="mailto:mahath2001@gmail.com" class="mail-link">
+            <span class="icon"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"></rect><path d="M3 7l9 6 9-6"></path></svg></span>
+            mahath2001@gmail.com
+          </a>
+        </div>
+        <div class="footer__socials">
+          <a href="https://www.linkedin.com/in/mahath-p-t-b9b1a9236" target="_blank" rel="noreferrer"><img src="assets/img/linkedin-ico.png" alt="LinkedIn" /></a>
+          <a href="https://github.com/MAHATH2001" target="_blank" rel="noreferrer"><img src="assets/img/github-ico.png" alt="GitHub" /></a>
+          <a href="https://instagram.com/mahath.pt/" target="_blank" rel="noreferrer"><img src="assets/img/insta-ico.png" alt="Instagram" /></a>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        Made by <a href="https://www.linkedin.com/in/mahath-p-t-b9b1a9236" target="_blank" rel="noreferrer">Mahath P T</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- video modal -->
+  <div class="video-modal">
+    <div class="video-modal__box">
+      <button class="video-modal__close" aria-label="Close">×</button>
+      <video controls>
+        <source src="" type="video/mp4" />
+      </video>
+    </div>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
